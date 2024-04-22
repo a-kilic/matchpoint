@@ -1,0 +1,110 @@
+:root {
+    --box-color: #363636;
+    --mobile-header-font-size: 25px;
+    --secondary-color: #272727;
+}
+
+
+/* Navigation Bar */
+
+#title h1,
+#title i {
+    font-size: var(--mobile-header-font-size);
+    margin-left: 5px;
+}
+
+#options {
+    margin: 0px 10px;
+}
+
+#options button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#options button i {
+    color: white;
+    font-size: var(--mobile-header-font-size);
+}
+
+.fa-magnifying-glass {
+    margin-right: 5px;
+}
+
+/* Main */
+
+/* Image Section */
+#image-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+#image-container img {
+    height: auto;
+    margin-top: 20px;
+    width: 350px;
+}
+
+/* Hero Section */
+#hero-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#hero-text-container {
+    line-height: 1;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+#hero-text-container h2{
+    color: rgb(154, 169, 218);
+    font-size: 30px;
+    margin: 0;
+}
+
+#hero-text-container h3 {
+    color: white;
+    font-weight: bolder;
+}
+
+#hero-text-container h4 {
+    color: rgb(199, 199, 199);
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 10px;
+}
+
+/* Button Section */
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#button-container button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+}
+
+/* Features Section */
+#features-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.feature {
+    background-color: var(--box-color);
+    height: 300px;
+    margin-top: 10px;
+    width: 90%;
+}
