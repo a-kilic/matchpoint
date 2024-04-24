@@ -2,7 +2,6 @@
 
 :root {
   --font-family: 'Roboto', sans-serif;
-  --font-size: 30px;
   --primary-color: #000000;
   --secondary-color: #272727;
 }
@@ -10,7 +9,6 @@
 * {
   box-sizing: border-box;
   font-family: var(--font-family);
-  font-size: var(--font-size);
   margin: 0;
   padding: 0;
 }
@@ -40,7 +38,6 @@ body {
 
 
 .container {
-  color: white;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
