@@ -1,7 +1,16 @@
 :root {
     --box-color: #363636;
+    --feature-icon-background: #666666;
+    --header-color: rgb(154, 169, 218);
+    --mobile-feature-icon-size: 20px;
+    --mobile-feature-title-size: 20px;
+    --mobile-feature-text-size: 17px;
+    --mobile-feature-link-size: 15px;
     --mobile-header-font-size: 25px;
+    --mobile-subheader-font-size: 30px;
+    --subheader-color: white;
     --secondary-color: #272727;
+    --text-color: rgb(199, 199, 199);
 }
 
 
@@ -9,6 +18,7 @@
 
 #title h1,
 #title i {
+    color: white;
     font-size: var(--mobile-header-font-size);
     margin-left: 5px;
 }
@@ -62,18 +72,18 @@
   }
 
 #hero-text-container h2{
-    color: rgb(154, 169, 218);
+    color: var(--header-color);
     font-size: 30px;
     margin: 0;
 }
 
 #hero-text-container h3 {
-    color: white;
-    font-weight: bolder;
+    color: var(--subheader-color);
+    font-size: var(--mobile-subheader-font-size);
 }
 
 #hero-text-container h4 {
-    color: rgb(199, 199, 199);
+    color: var(--text-color);
     font-size: 18px;
     line-height: 1.5;
     margin: 10px 10px;
@@ -86,7 +96,7 @@
 }
 
 #button-container button {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border: none;
     color: rgb(0, 0, 0);
     cursor: pointer;
@@ -103,8 +113,46 @@
 }
 
 .feature {
+    display: flex;
     background-color: var(--box-color);
-    height: 300px;
+    border-radius: 15px;
+    flex-direction: column;
+    height: 180px;
     margin-top: 10px;
     width: 90%;
+}
+
+.feature-item-container {
+    margin: 20px 20px;
+}
+
+.fa-arrows-rotate,
+.fa-puzzle-piece,
+.fa-sliders {
+    background-color: var(--feature-icon-background);
+    border-radius: 5px;
+    color: white;
+    font-size: var(--mobile-feature-icon-size);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.feature h4 {
+    color: white;
+    font-size: var(--mobile-feature-title-size);
+    margin-bottom: 10px;
+}
+
+.feature h5 {
+    color: var(--text-color);
+    font-size: var(--mobile-feature-text-size);
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.feature p {
+    color: var(--header-color);
+    font-size: var(--mobile-feature-link-size);
+    font-weight: 600;
 }
