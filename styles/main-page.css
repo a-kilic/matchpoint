@@ -1,42 +1,44 @@
 :root {
-    --box-color: #363636;
+    --feature-box-color: #363636;
     --feature-icon-background: #666666;
-    --header-color: rgb(154, 169, 218);
-    --mobile-feature-icon-size: 20px;
-    --mobile-feature-title-size: 20px;
-    --mobile-feature-text-size: 17px;
-    --mobile-feature-link-size: 15px;
-    --mobile-header-font-size: 25px;
-    --mobile-subheader-font-size: 30px;
-    --subheader-color: white;
+    --feature-icon-size: 20px;
+    --feature-link-size: 15px;
+    --feature-text-size: 17px;
+    --feature-title-size: 20px;
+    --font-family: 'Roboto', sans-serif;
+    --header-and-links: rgb(154, 169, 218);
+    --navbar-icon-size: 25px;
+    --primary-color: #000000;
     --secondary-color: #272727;
+    --subheader-color: white;
+    --subheader-font-size: 30px;
     --text-color: rgb(199, 199, 199);
 }
 
 
 /* Navigation Bar */
 
-#title h1,
-#title i {
+.title h1,
+.title i {
     color: white;
-    font-size: var(--mobile-header-font-size);
+    font-size: var(--navbar-icon-size);
     margin-left: 5px;
 }
 
-#options {
+.navbar-controls {
     margin: 0px 10px;
 }
 
-#options button {
+.navbar-controls button {
     background-color: transparent;
     border: none;
     cursor: pointer;
     outline: none;
 }
 
-#options button i {
+.navbar-controls button i {
     color: white;
-    font-size: var(--mobile-header-font-size);
+    font-size: var(--navbar-icon-size);
 }
 
 .fa-magnifying-glass {
@@ -46,43 +48,43 @@
 /* Main */
 
 /* Image Section */
-#image-container {
+.image-container {
     align-items: center;
     display: flex;
     justify-content: center;
   }
 
-#image-container img {
+.image-container img {
     height: auto;
     margin-top: 20px;
     width: 350px;
 }
 
 /* Hero Section */
-#hero-container {
+.hero-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-#hero-text-container {
+.hero-text-container {
     line-height: 1;
     margin: 10px 0;
     text-align: center;
   }
 
-#hero-text-container h2{
-    color: var(--header-color);
+.hero-text-container h2{
+    color: var(--header-and-links);
     font-size: 30px;
     margin: 0;
 }
 
-#hero-text-container h3 {
+.hero-text-container h3 {
     color: var(--subheader-color);
-    font-size: var(--mobile-subheader-font-size);
+    font-size: var(--subheader-font-size);
 }
 
-#hero-text-container h4 {
+.hero-text-container h4 {
     color: var(--text-color);
     font-size: 18px;
     line-height: 1.5;
@@ -90,14 +92,15 @@
 }
 
 /* Button Section */
-#button-container {
+.button-container {
     display: flex;
     justify-content: center;
 }
 
-#button-container button {
-    background-color: white;
+.button-container button {
+    background-color: rgb(64, 80, 133);
     border: none;
+    border-radius: 10px;
     color: rgb(0, 0, 0);
     cursor: pointer;
     font-family: Roboto, sans-serif;
@@ -105,7 +108,7 @@
 }
 
 /* Features Section */
-#features-container {
+.features-container {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -114,7 +117,7 @@
 
 .feature {
     display: flex;
-    background-color: var(--box-color);
+    background-color: var(--feature-box-color);
     border-radius: 15px;
     flex-direction: column;
     height: 180px;
@@ -132,27 +135,27 @@
     background-color: var(--feature-icon-background);
     border-radius: 5px;
     color: white;
-    font-size: var(--mobile-feature-icon-size);
+    font-size: var(--feature-icon-size);
     margin-bottom: 10px;
     padding: 10px;
 }
 
 .feature h4 {
     color: white;
-    font-size: var(--mobile-feature-title-size);
+    font-size: var(--feature-title-size);
     margin-bottom: 10px;
 }
 
 .feature h5 {
     color: var(--text-color);
-    font-size: var(--mobile-feature-text-size);
+    font-size: var(--feature-text-size);
     line-height: 1.2;
     margin-bottom: 10px;
     text-decoration: none;
 }
 
 .feature p {
-    color: var(--header-color);
-    font-size: var(--mobile-feature-link-size);
+    color: var(--header-and-links);
+    font-size: var(--feature-link-size);
     font-weight: 600;
 }
