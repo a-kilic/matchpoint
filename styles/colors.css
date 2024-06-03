@@ -1,9 +1,9 @@
 :root {
-    --feature-box-color: #363636;
-    --feature-icon-background: #666666;
+    --feature-box-color: rgb(34, 34, 34);
+    --feature-icon-background: #363636;
+    --feature-outline-color: rgb(64, 80, 133);
     --header-and-links: rgb(154, 169, 218);
-    --primary-color: #000000;
-    --secondary-color: #272727;
+    --background-color: #0f0f0f;
     --subheader-color: white;
     --text-color: rgb(199, 199, 199);
 }
@@ -11,17 +11,31 @@
 /* Grid Layout Background Colors */
 
 #box-1 {
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
 }
 
 #box-2 {
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
 }
 
 #box-3 {
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
+    border-top: 1px solid var(--feature-icon-background);
 }
 
+/* Hero Section Colors */
+
+.hero-text-container h2 {
+    color: var(--header-and-links);
+}
+
+.hero-text-container h3 {
+    color: var(--subheader-color);
+}
+
+.hero-text-container h4 {
+    color: var(--text-color);
+}
 /* Navigation Bar Colors */
 
 .menu button {
@@ -37,7 +51,15 @@
 
 .button-container button {
     background-color: rgb(64, 80, 133);
-    color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.button-container button:hover {
+    filter: brightness(115%);
+}
+
+.button-container button:active {
+    filter: brightness(125%);
 }
 
 /* Features Section Colors */
@@ -46,11 +68,14 @@
     background-color: var(--feature-box-color);
 }
 
+.feature:hover {
+    outline: 2px solid var(--feature-outline-color);
+}
+
 .fa-arrows-rotate,
 .fa-puzzle-piece,
 .fa-sliders {
     background-color: var(--feature-icon-background);
-    color: white;
 }
 
 .feature h4 {
@@ -63,4 +88,16 @@
 
 .feature p {
     color: var(--header-and-links);
+}
+
+.green-icon {
+    color: rgb(0, 255, 0);
+}
+
+.orange-icon {
+    color: #ffa600;
+}
+
+.purple-icon {
+    color: #e200e2;
 }
