@@ -1,0 +1,66 @@
+:root {
+    --feature-box-color: #363636;
+    --feature-icon-background: #666666;
+    --header-and-links: rgb(154, 169, 218);
+    --primary-color: #000000;
+    --secondary-color: #272727;
+    --subheader-color: white;
+    --text-color: rgb(199, 199, 199);
+}
+
+/* Grid Layout Background Colors */
+
+#box-1 {
+    background-color: var(--primary-color);
+}
+
+#box-2 {
+    background-color: var(--secondary-color);
+}
+
+#box-3 {
+    background-color: var(--primary-color);
+}
+
+/* Navigation Bar Colors */
+
+.menu button {
+    background-color: transparent;
+}
+
+.menu button i {
+    color: white;
+
+}
+
+/* Button Colors */
+
+.button-container button {
+    background-color: rgb(64, 80, 133);
+    color: rgb(0, 0, 0);
+}
+
+/* Features Section Colors */
+
+.feature {
+    background-color: var(--feature-box-color);
+}
+
+.fa-arrows-rotate,
+.fa-puzzle-piece,
+.fa-sliders {
+    background-color: var(--feature-icon-background);
+    color: white;
+}
+
+.feature h4 {
+    color: white;
+}
+
+.feature h5 {
+    color: var(--text-color);
+}
+
+.feature p {
+    color: var(--header-and-links);
+}

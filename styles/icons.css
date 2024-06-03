@@ -1,0 +1,27 @@
+:root {
+    --feature-icon-size: 20px;
+    --navbar-icon-size: 25px;
+}
+
+/* Navigation Bar Icons */
+
+.menu {
+    margin: 0px 10px;
+}
+
+.menu button i {
+    font-size: var(--navbar-icon-size);
+}
+
+.fa-magnifying-glass {
+    margin-right: 5px;
+}
+
+.fa-arrows-rotate,
+.fa-puzzle-piece,
+.fa-sliders {
+    border-radius: 5px;
+    font-size: var(--feature-icon-size);
+    margin-bottom: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,21 @@
+
+/* Features Containers */
+.features-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.feature {
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    height: 180px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.feature-item-container {
+    margin: 20px 20px;
+}

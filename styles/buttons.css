@@ -1,0 +1,20 @@
+/* Navigation Bar Buttons */
+
+.menu button {
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Main Section Buttons*/
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

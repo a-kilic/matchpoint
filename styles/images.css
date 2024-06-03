@@ -1,0 +1,13 @@
+/* Image Section */
+
+.image-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.image-container img {
+    height: auto;
+    margin-top: 20px;
+    width: 350px;
+}

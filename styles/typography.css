@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  font-family: var(--font-roboto);
+}
+
+:root {
+    --feature-link-size: 15px;
+    --font-roboto: 'Roboto', sans-serif;
+    --feature-text-size: 17px;
+    --feature-title-size: 20px;
+    --subheader-font-size: 30px;
+}
+
+/* Navigation Bar */
+
+.title h1,
+.title i {
+    color: white;
+    font-size: var(--navbar-icon-size);
+    margin-left: 5px;
+}
+
+/* Hero Section */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.hero-text-container {
+    line-height: 1;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.hero-text-container h2{
+    color: var(--header-and-links);
+    font-size: 30px;
+    margin: 0;
+}
+
+.hero-text-container h3 {
+    color: var(--subheader-color);
+    font-size: var(--subheader-font-size);
+}
+
+.hero-text-container h4 {
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 10px;
+}
+
+/* Button Section */
+
+.button-container button {
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+}
+
+/* Features Section */
+
+.feature h4 {
+    font-size: var(--feature-title-size);
+    margin-bottom: 10px;
+
+}
+
+.feature h5 {
+    font-size: var(--feature-text-size);
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.feature p {
+    font-size: var(--feature-link-size);
+    font-weight: 600;
+}
