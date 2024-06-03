@@ -23,6 +23,13 @@
     border-top: 1px solid var(--feature-icon-background);
 }
 
+/* Navigation Bar */
+
+.title h1,
+.title i {
+    color: white;
+}
+
 /* Hero Section Colors */
 
 .hero-text-container h2 {
