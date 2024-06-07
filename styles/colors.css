@@ -1,110 +1,55 @@
-:root {
-    --feature-box-color: rgb(34, 34, 34);
-    --feature-icon-background: #363636;
-    --feature-outline-color: rgb(64, 80, 133);
-    --header-and-links: rgb(154, 169, 218);
-    --background-color: #0f0f0f;
-    --subheader-color: white;
-    --text-color: rgb(199, 199, 199);
+/* Background Color of Page */
+
+body {
+    background-color: #0f0f0f;
 }
 
-/* Grid Layout Background Colors */
+/* Variables */
 
-#box-1 {
-    background-color: var(--background-color);
+:root  {
+    --dark-blue: rgb(64, 80, 133);
 }
 
-#box-2 {
-    background-color: var(--background-color);
+/* Background Colors */
+
+.bg-dark-blue {
+    background-color: var(--dark-blue);
 }
 
-#box-3 {
-    background-color: var(--background-color);
-    border-top: 1px solid var(--feature-icon-background);
+.bg-dark-gray {
+    background-color: rgb(34, 34, 34);
 }
 
-/* Navigation Bar */
-
-.title h1,
-.title i {
-    color: white;
+.bg-light-gray {
+    background-color: #363636;
 }
 
-/* Hero Section Colors */
-
-.hero-text-container h2 {
-    color: var(--header-and-links);
-}
-
-.hero-text-container h3 {
-    color: var(--subheader-color);
-}
-
-.hero-text-container h4 {
-    color: var(--text-color);
-}
-/* Navigation Bar Colors */
-
-.menu button {
+.bg-transparent {
     background-color: transparent;
 }
 
-.menu button i {
-    color: white;
+/* Text Colors */
 
+.text-gray {
+    color: rgb(199, 199, 199);
 }
 
-/* Button Colors */
-
-.button-container button {
-    background-color: rgb(64, 80, 133);
-    color: #ffffff;
-}
-
-.button-container button:hover {
-    filter: brightness(115%);
-}
-
-.button-container button:active {
-    filter: brightness(125%);
-}
-
-/* Features Section Colors */
-
-.feature {
-    background-color: var(--feature-box-color);
-}
-
-.feature:hover {
-    outline: 2px solid var(--feature-outline-color);
-}
-
-.fa-arrows-rotate,
-.fa-puzzle-piece,
-.fa-sliders {
-    background-color: var(--feature-icon-background);
-}
-
-.feature h4 {
-    color: white;
-}
-
-.feature h5 {
-    color: var(--text-color);
-}
-
-.feature p {
-    color: var(--header-and-links);
-}
-
-.green-icon {
+.text-green {
     color: rgb(0, 255, 0);
 }
 
-.orange-icon {
+.text-light-blue {
+    color: rgb(154, 169, 218);
+}
+
+.text-orange {
     color: #ffa600;
 }
 
-.purple-icon {
+.text-purple {
     color: #e200e2;
+}
+
+.text-white {
+    color: #ffffff;
 }
