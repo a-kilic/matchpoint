@@ -1,6 +1,6 @@
 /* Navigation Bar Buttons */
 
-.menu button {
+.nav-buttons {
     border: none;
     cursor: pointer;
     outline: none;
@@ -8,15 +8,23 @@
 
 /* Main Section Buttons*/
 
-.button-container {
+.button-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.button-container button {
+.button-get-started {
     border: none;
     border-radius: 15px;
     cursor: pointer;
     outline: none;
     padding: 10px;
+}
+
+.button-get-started:active {
+    filter: brightness(125%);
+}
+
+.button-get-started:hover {
+    filter: brightness(115%);
 }

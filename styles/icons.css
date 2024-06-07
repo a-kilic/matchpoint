@@ -5,14 +5,6 @@
 
 /* Navigation Bar Icons */
 
-.menu {
-    margin: 0px 10px;
-}
-
-.menu button i {
-    font-size: var(--navbar-icon-size);
-}
-
 .fa-magnifying-glass {
     margin-right: 5px;
 }
@@ -24,4 +16,16 @@
     font-size: var(--feature-icon-size);
     margin-bottom: 10px;
     padding: 10px;
+}
+
+.logo {
+    margin-left: 5px; 
+}
+
+.menu {
+    margin: 0px 10px;
+}
+
+.nav-buttons {
+    font-size: var(--navbar-icon-size);
 }

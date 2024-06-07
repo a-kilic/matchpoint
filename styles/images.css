@@ -1,12 +1,12 @@
 /* Image Section */
 
-.image-container {
+.image-wrapper {
   align-items: center;
   display: flex;
   justify-content: center;
 }
 
-.image-container img {
+.hero-image {
     height: auto;
     margin-top: 20px;
     width: 350px;

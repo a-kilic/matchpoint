@@ -7,52 +7,42 @@
 :root {
     --button-font-size: 20px;
     --feature-link-size: 15px;
-    --font-roboto: 'Roboto', sans-serif;
     --feature-text-size: 17px;
     --feature-title-size: 20px;
-    --subheader-font-size: 30px;
+    --font-roboto: 'Roboto', sans-serif;
     --title-font-size: 20px;
+    --subheader-font-size: 30px;
 }
 
 /* Navigation Bar */
 
-.title h1 {
+.logo {
     font-size: var(--title-font-size);
-    margin-left: 5px;
 }
 
 /* Hero Section */
 
-.hero-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.hero-text-container {
+.hero-text {
     line-height: 1;
-    margin: 10px 0;
     text-align: center;
 }
 
-.hero-text-container h2{
+.hero-header{
     font-size: 30px;
-    margin: 0;
 }
 
-.hero-text-container h3 {
+.hero-subheader {
     font-size: var(--subheader-font-size);
 }
 
-.hero-text-container h4 {
+.hero-tagline {
     font-size: 18px;
     line-height: 1.5;
-    margin: 10px 10px;
 }
 
 /* Button Section */
 
-.button-container button {
+.button-get-started {
     font-family: var(--font-roboto);
     font-size: var(--button-font-size);
     font-weight: 400;
@@ -61,20 +51,17 @@
 
 /* Features Section */
 
-.feature h4 {
+.feature-header {
     font-size: var(--feature-title-size);
-    margin-bottom: 10px;
-
 }
 
-.feature h5 {
+.feature-description {
     font-size: var(--feature-text-size);
     line-height: 1.2;
-    margin-bottom: 10px;
     text-decoration: none;
 }
 
-.feature p {
+.feature-cta{
     font-size: var(--feature-link-size);
     font-weight: 600;
 }
