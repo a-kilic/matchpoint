@@ -1,31 +1,24 @@
-:root {
-    --feature-icon-size: 20px;
-    --navbar-icon-size: 20px;
-}
-
 /* Navigation Bar Icons */
 
-.fa-magnifying-glass {
-    margin-right: 5px;
+.fa-magnifying-glass,
+.fa-bars {
+    font-size: 18px;
+    padding-right: 5px;
 }
 
 .fa-arrows-rotate,
 .fa-puzzle-piece,
 .fa-sliders {
     border-radius: 5px;
-    font-size: var(--feature-icon-size);
+    font-size: 18px;
     margin-bottom: 10px;
     padding: 10px;
 }
 
-.logo {
-    margin-left: 5px; 
+.title {
+    margin-left: 5px;
 }
 
-.menu {
-    margin: 0px 10px;
-}
-
-.nav-buttons {
-    font-size: var(--navbar-icon-size);
+.navbar-icons {
+    margin-right: 5px;
 }
