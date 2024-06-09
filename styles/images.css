@@ -1,13 +1,7 @@
 /* Image Section */
-
-.image-wrapper {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
 .hero-image {
     height: auto;
+    margin: auto;
     margin-top: 20px;
     width: 350px;
 }
