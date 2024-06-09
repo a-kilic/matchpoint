@@ -1,6 +1,6 @@
 /* Background Color of Page */
 
-body {
+.bg-black {
     background-color: #0f0f0f;
 }
 
@@ -30,26 +30,26 @@ body {
 
 /* Text Colors */
 
-.text-gray {
+.gray {
     color: rgb(199, 199, 199);
 }
 
-.text-green {
+.green {
     color: rgb(0, 255, 0);
 }
 
-.text-light-blue {
+.light-blue {
     color: rgb(154, 169, 218);
 }
 
-.text-orange {
+.orange {
     color: #ffa600;
 }
 
-.text-purple {
+.purple {
     color: #e200e2;
 }
 
-.text-white {
+.white {
     color: #ffffff;
 }
