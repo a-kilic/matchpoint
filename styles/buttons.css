@@ -8,23 +8,20 @@
 
 /* Main Section Buttons*/
 
-.button-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.button-get-started {
+.button-cta {
     border: none;
     border-radius: 15px;
     cursor: pointer;
     outline: none;
+    margin: auto;
     padding: 10px;
+    width: 200px;
 }
 
-.button-get-started:active {
+.button-cta:active {
     filter: brightness(125%);
 }
 
-.button-get-started:hover {
+.button-cta:hover {
     filter: brightness(115%);
 }
