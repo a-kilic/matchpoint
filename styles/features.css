@@ -14,18 +14,26 @@
     height: 180px;
     justify-content: center;
     margin-bottom: 10px;
+    width: 300px;
     padding-left: 10px;
-    width: 90%;
 }
 
 .feature:hover {
-    outline: 2px solid var(--dark-blue);
+    outline: 2px solid rgb(64, 80, 133);
 }
 
 .feature-header {
     margin-bottom: 10px;
 }
 
-.feature-description {
-    margin-bottom: 10px;
+@media screen and (min-width: 768px){
+    .features-container {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .feature {
+        margin-right: 20px; 
+      }
 }
