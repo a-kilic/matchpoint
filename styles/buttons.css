@@ -10,12 +10,13 @@
 
 .button-cta {
     border: none;
-    border-radius: 15px;
+    border-radius: 30px;
     cursor: pointer;
     outline: none;
     margin: auto;
+    margin-top: 10px;
     padding: 10px;
-    width: 200px;
+    width: 150px;
 }
 
 .button-cta:active {
