@@ -83,3 +83,13 @@
 .align-right {
     text-align: right;
 }
+
+/* Text decoration */
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.decoration-underline {
+    text-decoration: underline;
+}
