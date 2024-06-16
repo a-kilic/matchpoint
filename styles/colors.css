@@ -1,19 +1,11 @@
-/* Background Color of Page */
+/* Background Colors */
 
 .bg-black {
     background-color: #0f0f0f;
 }
 
-/* Variables */
-
-:root  {
-    --dark-blue: rgb(64, 80, 133);
-}
-
-/* Background Colors */
-
 .bg-dark-blue {
-    background-color: var(--dark-blue);
+    background-color: rgb(64, 80, 133);
 }
 
 .bg-dark-gray {
@@ -26,6 +18,14 @@
 
 .bg-transparent {
     background-color: transparent;
+}
+
+.bg-red {
+    background-color: #ff0000;
+}
+
+.bg-yellow {
+    background-color: #505023;
 }
 
 /* Text Colors */
