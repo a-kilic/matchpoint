@@ -5,3 +5,10 @@
     margin-top: 20px;
     width: 350px;
 }
+
+/* Media query for desktop mode */
+@media screen and (min-width: 960px) {
+    .hero-image {
+        width: 500px;
+    }
+}
