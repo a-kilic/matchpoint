@@ -22,7 +22,7 @@
     outline: 2px solid rgb(64, 80, 133);
 }
 
-.feature-header {
+.feature-header, .details {
     margin-bottom: 10px;
 }
 
