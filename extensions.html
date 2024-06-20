@@ -16,17 +16,30 @@
     <link rel="stylesheet" href="styles/features.css">
     <link rel="stylesheet" href="styles/docs.css">
     <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/footer.css">
 </head>
 <body class="bg-black">
     <div id="container">
         <div id="navbar-layout-2">
-            <a href="index.html" class="title header-small white decoration-none"><i class="fa-solid fa-medal"></i> MatchPoint</a>
-            <div class="navbar-icons">
+            <div class="navbar-title-search">
+              <a href="index.html" class="title header-medium white decoration-none"><i class="fa-solid fa-medal"></i> MatchPoint</a>
+              <form class="search-bar bg-dark-gray">
+                <i class="search-icon fa-solid fa-magnifying-glass gray"></i>
+                <input class="search-input subheader-small bg-dark-gray white" type="search" placeholder="Search...">
+              </form>
+            </div>
+            <div class="desktop-icons">
+              <a href="https://github.com/a-kilic/matchpoint" class="socials" target="_blank"><i class="fa-brands fa-github white header-medium"></i></a>
+              <a href="https://x.com" class="socials" target="_blank"><i class="fa-brands fa-x-twitter white header-medium"></i></a>
+              <a href="https://www.facebook.com/" class="socials" target="_blank"><i class="fa-brands fa-facebook white header-medium"></i></a>
+              <a href="https://www.reddit.com/" class="socials" target="_blank"><i class="fa-brands fa-reddit white header-medium"></i></a>
+            </div>
+            <div class="mobile-icons">
               <button class="nav-buttons white bg-transparent"><i class="fa-solid fa-magnifying-glass"></i></button>
               <button class="nav-buttons white bg-transparent"><i class="fa-solid fa-bars"></i></button>
             </div>
-        </div>
+          </div>
         <div id="content-layout-2">
             <div class="section">
                 <h2 class="section-title header-medium white">Placeholder title</h2>
@@ -60,7 +73,6 @@
             </div>
             <div class="section">
                 <h2 class="section-title header-medium white">Placeholder title</h2>
-                <h3 class="gray header-small white regular">How do I log in to trackers?</h3>
                 <p class="gray height-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, corporis rerum est officia porro, odit quia asperiores quasi non ipsam cum officiis error dolor aliquam velit laboriosam natus laudantium excepturi!</p>
                 <div class="alert-box bg-yellow">
                     <h4 class="alert-header white regular">For your information</h4>
