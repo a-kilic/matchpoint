@@ -3,3 +3,42 @@
     flex-direction: column;
     justify-content: center;
 }
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Media query for desktop mode */
+@media (min-width: 960px) {
+    .hero-container {
+        flex-direction: row;
+    }
+    
+    .text-content {
+        align-items: flex-start;
+        justify-content: center;
+        order: 1;
+    }
+    .image-content {
+        order: 2;
+        margin-left: 40px; 
+    }
+
+    .hero-title, .hero-subheader {
+        font-size: 50px;
+    }
+
+    .hero-tagline {
+        font-size: 20px;
+    }
+
+    .hero-title, .hero-subheader, .hero-tagline {
+        text-align: left;
+    }
+
+    .hero-button {
+        margin-top: 10px;
+    }
+}
