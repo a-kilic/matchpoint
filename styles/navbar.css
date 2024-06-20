@@ -6,3 +6,52 @@
     border-bottom: 1px solid rgb(128, 128, 128);
     margin-bottom: 10px;
 }
+
+.navbar-title-search {
+    align-items: center;
+    display: flex;
+}
+
+.search-bar {
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+}
+
+.search-bar:focus-within {
+    outline: 2px solid rgb(64, 80, 133);
+}
+
+.search-bar:hover {
+    outline: 2px solid rgb(64, 80, 133);
+}
+
+.search-input {
+    border: none;
+    margin-left: 5px;
+    outline: none;
+    width: 100px;
+}
+
+.search-input::placeholder {
+    color: rgb(128, 128, 128);
+}
+
+
+@media screen and (min-width: 768px) {
+    .mobile-icons {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .search-bar {
+        display: none;
+    }
+
+    .desktop-icons {
+        display: none;
+    }
+}
+
