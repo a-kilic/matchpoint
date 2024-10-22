@@ -1,1 +1,1 @@
-See live version here: https://a-kilic.github.io/matchpoint/
+Just a test project to learn the concept of CSS Frameworks
